@@ -1,7 +1,7 @@
 
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(base.png);
+    background: url(assets/base.png);
     height: 700px;
     width: 1200px;
     /*    margin-left: -403px;
@@ -9,7 +9,7 @@
 }
 -
 .ds4.disconnected {
-    background: url(disconnected.png);
+    background: url(assets/disconnected.png);
     height: 700px;
     width: 1200px;
     /*    margin-left: -403px;
@@ -27,7 +27,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(trigger.png);
+    background: url(assets/trigger.png);
     opacity: 0;
 }
 
@@ -43,7 +43,7 @@
 .ds4 .bumper {
     width: 200px;
     height: 45px;
-    background: url(bumper.png) no-repeat;
+    background: url(assets/bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(touchpad.png) no-repeat center;
+    background: url(assets/touchpad.png) no-repeat center;
 }
 
 .ds4 .meta {
@@ -91,7 +91,7 @@
 }
 
 .ds4 .meta.pressed {
-    background: url(home.png) no-repeat center;
+    background: url(assets/home.png) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -116,7 +116,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(options&share.png);
+    background: url(assets/options&share.png);
     width: 26px;
     height: 43px;
     opacity: 0;
@@ -162,7 +162,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(buttons.png);
+    background: url(assets/buttons.png);
 }
 
 .ds4 .button.pressed {
@@ -203,7 +203,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(sticks.png);
+    background: url(assets/sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -235,7 +235,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(d-pad.png);
+    background: url(assets/d-pad.png);
     position: absolute;
 }
 
