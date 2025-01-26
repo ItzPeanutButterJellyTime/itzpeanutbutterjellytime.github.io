@@ -1,5 +1,7 @@
 #divider {
     border-bottom: 1px solid #888989;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     height: 5px;
     max-width: 25%; 
 }
