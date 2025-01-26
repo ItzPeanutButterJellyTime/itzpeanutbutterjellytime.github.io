@@ -1,5 +1,5 @@
 #divider {
-    background-color: black;
+    border-bottom: 1px solid #888989;
     height: 5px;
     max-width: 25%; 
 }
