@@ -1,0 +1,46 @@
+html {
+  font-family: 'Poppins', 'Arial';
+  color: #1a000d;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #006633, #cc9966);
+}
+
+img {
+  display: block;
+}
+
+#image {
+  align-items: center;
+  border-radius: 50px;
+  margin: auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 28pt;
+  text-align: center;
+}
+
+h2 {
+  font-style: bold;
+  font-size: 24pt;
+  text-align: center;
+}
+
+p {
+  font-style: regular;
+  font-size: 18pt;
+  text-align: left;
+}
+
+a {
+  display: flex;
+  margin: 25px;
+  justify-content: center;
+  color: #cc9966;
+  font-style: regular, underlined;
+  font-size: 19pt;
+}
