@@ -1,12 +1,14 @@
+html {
+  font-family: 'Poppins', 'Arial';
+  font-size: 1.35rem;
+  color: white;
+}
+
 body {
   background-image: linear-gradient(90deg, hsla(240,29.9%,42%,45.25%), hsla(240,29.8%,52%,45.25%)), url(https://img.freepik.com/free-photo/team-coworkers-comparing-source-codes-running-laptop-screen-computer-monitor-it-development-office-software-developers-collaborating-data-coding-group-project-while-sitting-desk_482257-41846.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 100;
-  color: white;
   margin: 2.25em;
 }
 
@@ -17,7 +19,11 @@ body {
 
 form {
   display: block;
-  padding: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin: auto;
   background-color: rgba(0, 0, 0, 56.35%);
   border: 10px, rgba(0, 0, 0, 46.35%), solid;
 }
@@ -29,12 +35,14 @@ label {
 
 .input-group {
   display: block;
+  padding: auto;
   margin: 0 auto 1.5em auto;
 }
 
 .input-control {
   display: block;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   color: black;
   border: 3px black solid;
@@ -50,21 +58,23 @@ label {
   }
 
   .clue {
-    font-size: .84rem;
+    font-size: .85rem;
   }
 
   .submit-button {
     display: block;
+    font-family: 'Poppins', 'Arial';
     font-weight: 750px;
     color: white;
     background-color: #228B22;
-    border: none;
+    border: 3px solid #8b2222;
+    border-radius: 10px;
     width: 86em;
     height: 2.5rem;
   }
   textarea {
     display: block;
     border: 3px solid black;
-    height: 10em;
-    width: 20em;
+    height: 16rem;
+    width: 32rem;
   }
