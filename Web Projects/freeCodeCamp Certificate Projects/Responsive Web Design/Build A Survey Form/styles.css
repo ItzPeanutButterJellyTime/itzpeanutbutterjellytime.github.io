@@ -2,6 +2,8 @@ html {
   font-family: 'Poppins', 'Arial';
   font-size: 1.35rem;
   color: white;
+  width: auto;
+  height: auto;
 }
 
 body {
