@@ -64,13 +64,14 @@ label {
 
   .submit-button {
     display: block;
+    text-align: center;
     font-family: 'Poppins', 'Arial';
     font-weight: 750px;
     color: white;
     background-color: #228B22;
     border: 3px solid #8b2222;
     border-radius: 10px;
-    width: 86em;
+    width: 256px;
     height: 2.5rem;
   }
   textarea {
