@@ -62,8 +62,8 @@ label {
 
   .input-radio, .input-checkbox {
     display: inline-block;
-    min-height: 12px;
-    min-width: 12px;
+    min-height: 24px;
+    min-width: 24px;
     margin-right: 0.45em;
   }
 
