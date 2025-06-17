@@ -27,7 +27,7 @@ body {
 
 form {
   display: block;
-  padding: 3rem 6rem;
+  padding: 3rem;
   margin: auto;
   background-color: rgba(0, 0, 0, 56.35%);
   border: 10px, rgba(0, 0, 0, 46.35%), solid;
@@ -39,7 +39,6 @@ label {
 
 .input-group {
   display: block;
-  padding: auto;
   margin: auto;
   margin-bottom: 1.5em;
 }
