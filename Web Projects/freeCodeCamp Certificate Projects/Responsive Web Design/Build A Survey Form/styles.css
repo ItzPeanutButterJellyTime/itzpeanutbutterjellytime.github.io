@@ -26,15 +26,15 @@ body {
 }
 
 form {
-  display: block;
   padding: 3rem;
-  margin: auto;
   background-color: rgba(0, 0, 0, 56.35%);
-  border: 10px, rgba(0, 0, 0, 46.35%), solid;
+  border-radius: 0.25rem;
 }
 
 label {
-  display: block;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
 }
 
 .input-group {
@@ -45,17 +45,18 @@ label {
 .input-control {
   display: block;
   background-color: white;
+  font-family: 'Roboto', 'Arial';
   color: black;
-  border: 3px black solid;
-  width: 50%;
+  border-radius: 5%;
+  width: 100%;
   height: 3.62vh;
   }
 
   .input-radio {
-    align-items: center;
     display: inline-block;
-    min-height: 1rem;
-    min-width: 1rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    margin-right: 0.45em;
   }
 
   .clue {
