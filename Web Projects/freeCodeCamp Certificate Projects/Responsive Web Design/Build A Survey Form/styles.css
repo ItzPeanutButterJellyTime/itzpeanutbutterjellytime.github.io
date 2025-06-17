@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/RobotoCondensed-Regular.woff2') format('woff2');
+  src: url('fonts/RobotoCondensed-Regular.woff') format('woff');
+}
+
 html {
   font-family: 'Poppins', 'Arial';
   font-size: 1.35rem;
