@@ -21,8 +21,12 @@ body {
 }
 
 .header {
-  font-style: italic; 
+  font-style: normal; 
   text-align: center;
+}
+
+#description.header{
+  font-style: italic;
 }
 
 form {
