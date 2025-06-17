@@ -49,6 +49,7 @@ label {
   background-color: white;
   font-family: 'Roboto', 'Arial';
   color: black;
+  border: none;
   border-radius: 0.25rem;
   width: 100%;
   height: 3.62vh;
