@@ -48,6 +48,7 @@ label {
   background-color: white;
   color: black;
   border: 3px black solid;
+  width: 10vw;
   height: 3.62vh;
   }
 
@@ -68,10 +69,11 @@ label {
     font-family: 'Poppins', 'Arial';
     font-weight: 750px;
     color: white;
+    margin: auto;
     background-color: #228B22;
     border: 3px solid #8b2222;
     border-radius: 10px;
-    width: 50px;
+    width: 356px;
     height: 2.5rem;
   }
   textarea {
