@@ -29,13 +29,14 @@ form {
   width: 782px;
   min-height: 100%;
   padding: 3rem;
+  margin: auto;
   background-color: rgba(0, 0, 0, 56.35%);
   border-radius: 0.25rem;
 }
 
 label {
   display: block;
-  font-weight: bold;
+  font-weight: 755px;
 }
 
 .input-group {
