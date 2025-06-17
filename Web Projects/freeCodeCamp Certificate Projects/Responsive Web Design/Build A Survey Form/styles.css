@@ -72,6 +72,7 @@ label {
     font-weight: 750px;
     color: white;
     margin: auto;
+    margin-bottom: 0;
     background-color: #228B22;
     border: 3px solid #8b2222;
     border-radius: 10px;
