@@ -43,7 +43,8 @@ label {
 .input-group {
   display: block;
   padding: auto;
-  margin: 0 auto 1.5em auto;
+  margin: auto;
+  margin-bottom: 1.5em;
 }
 
 .input-control {
