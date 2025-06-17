@@ -27,10 +27,7 @@ body {
 
 form {
   display: block;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding: 3rem 6rem;
   margin: auto;
   background-color: rgba(0, 0, 0, 56.35%);
   border: 10px, rgba(0, 0, 0, 46.35%), solid;
