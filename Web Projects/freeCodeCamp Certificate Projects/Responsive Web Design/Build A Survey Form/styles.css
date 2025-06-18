@@ -78,14 +78,16 @@ label {
     font-weight: 800;
     margin: auto;
     margin-bottom: 0;
-    background: linear-gradient(90deg, #66cc33, #9933cc);
+    background: linear-gradient(180deg, #66cc33, #9933cc);
+    border: none;
     border-radius: 10px;
     width: 356px;
     height: 2.5rem;
   }
 
-  .submit-button:hover {
-    background: linear-gradient(90deg, #9933cc, #66cc33);
+  .submit-button:active {
+    background: linear-gradient(180deg, #9933cc, #66cc33);
+    border: none;
   }
 
   textarea {
