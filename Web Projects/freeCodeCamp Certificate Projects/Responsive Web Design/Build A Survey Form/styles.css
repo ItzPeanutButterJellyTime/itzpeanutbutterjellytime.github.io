@@ -116,8 +116,6 @@ label {
     margin: auto;
     margin-bottom: 0;
     background-color: linear-gradient(90deg, #66cc33, #9933cc);
-    border-style: solid;
-    border-width: 3px;
     border-image: linear-gradient(90deg, #0a1405, #eff9ea) 1;
     border-radius: 10px;
     width: 356px;
