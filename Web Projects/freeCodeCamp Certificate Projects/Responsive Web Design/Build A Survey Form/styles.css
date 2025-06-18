@@ -6,7 +6,7 @@
 
 html {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 1.35rem;
+  font-size: 21.6px;
   color: white;
   width: auto;
   height: auto;
@@ -74,6 +74,7 @@ label {
   .submit-button {
     display: block;
     font-family: 'Roboto', Arial, sans-serif;
+    font-size: calc(21.6px + 1vw);
     text-align: center;
     font-weight: 800;
     margin: auto;
