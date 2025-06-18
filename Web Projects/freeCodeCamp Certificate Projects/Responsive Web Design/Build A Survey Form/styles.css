@@ -4,20 +4,6 @@
   src: url('fonts/RobotoCondensed-Regular.woff') format('woff');
 }
 
-  form {
-    width: 100%;
-    margin: 0;
-  }
-  .input-group {
-    margin-bottom: 0.5em;
-  }
-  .input-control {
-    height: 2.5rem;
-  }
-  .submit-button {
-    width: 100%;
-  }
-
 html {
   font-family: 'Roboto', 'Arial';
   font-size: 1.35rem;
