@@ -79,7 +79,6 @@ label {
     margin: auto;
     margin-bottom: 0;
     background-color: linear-gradient(90deg, #66cc33, #9933cc);
-    border-image: linear-gradient(90deg, #0a1405, #eff9ea) 1;
     border-radius: 10px;
     width: 356px;
     height: 2.5rem;
@@ -87,7 +86,6 @@ label {
 
   .submit-button:active {
     background-color: linear-gradient(90deg, #9933cc, #66cc33);
-    border-image: linear-gradient(180deg, #eff9ea, #0a1405) 1;
   }
 
   textarea {
