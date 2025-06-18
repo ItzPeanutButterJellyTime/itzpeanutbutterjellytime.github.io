@@ -73,21 +73,23 @@ label {
 
   .submit-button {
     display: block;
-    text-align: center;
     font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 750px;
-    color: white;
+    text-align: center;
+    font-weight: 800px;
     margin: auto;
     margin-bottom: 0;
-    background-color: #228B22;
-    border: 3px solid #8b2222;
+    background-color: linear-gradient(90deg, #66cc33, #9933cc) 1;
+    border: 3px solid;
+    border-image: linear-gradient(90deg, #0a1405, #eff9ea) 1;
     border-radius: 10px;
     width: 356px;
     height: 2.5rem;
   }
 
   .submit-button:active {
-
+    background-color: linear-gradient(90deg, #9933cc, #66cc33) 1;
+    border: 3px solid;
+    border-image: linear-gradient(90deg, #eff9ea, #0a1405) 1;
   }
 
   textarea {
