@@ -74,7 +74,7 @@ label {
   .submit-button {
     display: block;
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: calc(21.6px + 1vw);
+    font-size: calc(21.6px + 1rem);
     text-align: center;
     font-weight: 800;
     margin: auto;
