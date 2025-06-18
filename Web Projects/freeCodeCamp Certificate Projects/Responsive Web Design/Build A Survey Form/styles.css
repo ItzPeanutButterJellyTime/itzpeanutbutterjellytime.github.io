@@ -86,7 +86,7 @@ label {
   }
 
   .submit-button:active {
-    background: linear-gradient(180deg, #66cc33, #336633);
+    background: linear-gradient(180deg, #9933cc, #5b1e7a);
     color: white;
     border: none;
   }
