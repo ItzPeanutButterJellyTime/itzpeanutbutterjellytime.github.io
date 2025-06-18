@@ -87,9 +87,9 @@ label {
   }
 
   .submit-button:active {
-    background-color: linear-gradient(90deg, #9933cc, #66cc33) 1;
+    background-color: linear-gradient(90deg, #9933cc, #66cc33);
     border: 3px solid;
-    border-image: linear-gradient(90deg, #eff9ea, #0a1405) 1;
+    border-image: linear-gradient(180deg, #eff9ea, #0a1405) 1;
   }
 
   textarea {
