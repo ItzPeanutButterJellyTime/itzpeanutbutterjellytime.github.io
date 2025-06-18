@@ -9,7 +9,38 @@
   src: url('fonts/RobotoCondensed-Regular.woff2') format('woff2');
   src: url('fonts/RobotoCondensed-Regular.woff') format('woff');
 }
-
+@media (max-width: 600px) {
+  body {
+    margin: 1.125rem;
+  }
+  form {
+    width: 100%;
+    margin: 0 1.125rem;
+  }
+  .input-group {
+    display: block;
+  }
+  .input-group input[type="text"], .input-group textarea {
+    width: 100%;
+  }
+  .input-group label {
+    display: inline-block;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .input-group p {
+    margin-bottom: 0.5rem;
+  }
+  .input-group .input-control {
+    width: 100%;
+  }
+  textarea {
+    height: 150px;
+  }
+  .submit-button {
+    width: 100%;
+  }
+}
 html {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 1.35rem;
