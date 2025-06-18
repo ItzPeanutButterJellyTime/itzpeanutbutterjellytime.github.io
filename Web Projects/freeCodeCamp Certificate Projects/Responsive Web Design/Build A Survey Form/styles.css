@@ -84,7 +84,7 @@ label {
     height: 2.5rem;
   }
 
-  .submit-button:active {
+  .submit-button:hover {
     background-color: linear-gradient(90deg, #9933cc, #66cc33);
   }
 
