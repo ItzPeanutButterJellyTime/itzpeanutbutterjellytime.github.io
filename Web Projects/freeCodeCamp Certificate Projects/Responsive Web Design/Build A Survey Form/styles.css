@@ -78,7 +78,7 @@ label {
     font-weight: 800;
     margin: auto;
     margin-bottom: 0;
-    background: linear-gradient(180deg, #66cc33, #9933cc);
+    background: linear-gradient(180deg, #66cc33, #336633);
     border: none;
     border-radius: 10px;
     width: 356px;
@@ -86,7 +86,8 @@ label {
   }
 
   .submit-button:active {
-    background: linear-gradient(180deg, #9933cc, #66cc33);
+    background: linear-gradient(180deg, #66cc33, #336633);
+    color: white;
     border: none;
   }
 
