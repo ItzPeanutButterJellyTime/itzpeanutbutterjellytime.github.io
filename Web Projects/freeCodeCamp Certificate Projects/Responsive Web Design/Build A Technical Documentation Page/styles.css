@@ -1,7 +1,8 @@
-@media(max-width: 750px) {
+@media(min-width: 320px) and (max-width: 768px) {
   html {
-    font-size: 1.36rem;
-    width: 80%;
+    font-size: 1.18rem;
+    width: 100%;
+    height: auto;
   }
 }
 
