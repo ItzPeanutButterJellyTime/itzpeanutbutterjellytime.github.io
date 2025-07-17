@@ -1,3 +1,14 @@
+@media(max-width:1920px) and (max-height: 1080px) {
+  #navbar {
+    width: 24vw;
+  }
+
+  #main-doc {
+    margin-left: 25vw;
+    margin-right: 1vw;
+  }
+}
+
 @media(max-width: 480px) and (max-height: 780px) {
   html {
     font-size: 0.85rem;
@@ -10,7 +21,7 @@
     flex-direction: column;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    margin-left: -12vw;
+    margin: 5vw;
   }
 
   #navbar header {
@@ -40,6 +51,7 @@ html {
 #main-doc {
   position: absolute;
   margin-left: 21vw;
+  margin-right: 1vw;
 }
 
 #navbar header {
