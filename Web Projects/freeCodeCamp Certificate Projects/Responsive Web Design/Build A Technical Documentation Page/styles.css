@@ -37,7 +37,7 @@
     flex-direction: column;
     border-top: 1.25px solid;
     list-style: none;
-    width: 60%;
+    width: auto;
   }
 
   section {
