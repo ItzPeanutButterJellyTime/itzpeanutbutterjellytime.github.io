@@ -10,7 +10,6 @@
     flex-direction: column;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    margin-left: 12vw;
   }
 
   #navbar header {
