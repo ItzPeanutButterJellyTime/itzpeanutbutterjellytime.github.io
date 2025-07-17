@@ -6,7 +6,9 @@
   }
 
   #main-doc {
-    position: relative;
+    display: flex;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
     margin-left: 12vw;
   }
 
@@ -33,6 +35,11 @@
     border-top: 1.25px solid;
     list-style: none;
     width: 60%;
+  }
+
+  section {
+    display: flex;
+    
   }
 }
 
