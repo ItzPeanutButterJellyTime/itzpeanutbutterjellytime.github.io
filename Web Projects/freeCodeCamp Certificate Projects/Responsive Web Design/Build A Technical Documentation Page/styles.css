@@ -1,8 +1,8 @@
 @media(max-width: 480px) and (max-height: 780px) {
   html {
     font-size: 0.85rem;
-    max-width: 100%;
-    max-height: auto;
+    width: 100vw;
+    height: auto;
   }
 
   #main-doc {
@@ -14,7 +14,6 @@
   }
 
   #navbar header {
-    max-height: 60%;
     text-align: center;
     font-size: calc(0.85rem + 5px);
     font-weight: 500;
@@ -36,6 +35,8 @@
     border-top: 1.25px solid;
     list-style: none;
     box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-x: auto;
   }
 
   section {
