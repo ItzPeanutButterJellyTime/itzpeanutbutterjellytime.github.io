@@ -36,7 +36,7 @@
     list-style: none;
     box-sizing: border-box;
     word-wrap: break-word;
-    overflow-x: auto;
+    overflow-x: visible;
   }
 
   section {
