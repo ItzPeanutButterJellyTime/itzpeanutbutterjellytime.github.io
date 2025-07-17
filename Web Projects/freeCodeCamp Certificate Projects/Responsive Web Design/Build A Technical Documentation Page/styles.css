@@ -3,6 +3,7 @@
     font-size: 0.85rem;
     max-width: 50%;
     max-height: auto;
+    margin: auto;
   }
 
   #main-doc {
@@ -25,8 +26,8 @@
 
   #navbar {
     position: fixed;
-    width: 8vw;
-    height: 60%;
+    width: 100%;
+    height: auto;
     overflow-y: auto;
     overflow-x: hidden;
   }
