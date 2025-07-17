@@ -1,9 +1,8 @@
 @media(max-width: 480px) and (max-height: 780px) {
   html {
     font-size: 0.85rem;
-    max-width: 50%;
+    max-width: 100%;
     max-height: auto;
-    margin: auto;
   }
 
   #main-doc {
@@ -26,6 +25,8 @@
 
   #navbar {
     position: fixed;
+    left: 0;
+    right: 0;
     width: 100%;
     height: auto;
     overflow-y: auto;
@@ -37,7 +38,7 @@
     flex-direction: column;
     border-top: 1.25px solid;
     list-style: none;
-    width: auto;
+    width: 100%;
   }
 
   section {
