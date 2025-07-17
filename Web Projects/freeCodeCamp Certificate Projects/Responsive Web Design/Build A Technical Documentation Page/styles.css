@@ -37,6 +37,7 @@
     box-sizing: border-box;
     word-wrap: break-word;
     overflow-x: visible;
+    height: 100%;
   }
 
   section {
