@@ -32,11 +32,9 @@
   }
 
   #navbar li {
-    display: flex;
-    flex-direction: column;
+    position: relative;
     border-top: 1.25px solid;
     list-style: none;
-    width: 100%;
   }
 
   section {
