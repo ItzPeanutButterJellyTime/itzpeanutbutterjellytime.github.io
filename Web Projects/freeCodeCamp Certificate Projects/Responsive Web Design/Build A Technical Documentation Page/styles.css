@@ -35,6 +35,7 @@
     position: relative;
     border-top: 1.25px solid;
     list-style: none;
+    box-sizing: border-box;
   }
 
   section {
