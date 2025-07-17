@@ -22,22 +22,7 @@
   }
 
   #navbar {
-    position: fixed;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: auto;
-    overflow-y: auto;
-  }
-
-  #navbar li {
-    position: relative;
-    border-top: 1.25px solid;
-    list-style: none;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    overflow-x: visible;
-    height: 100%;
+    display: none;
   }
 
   section {
