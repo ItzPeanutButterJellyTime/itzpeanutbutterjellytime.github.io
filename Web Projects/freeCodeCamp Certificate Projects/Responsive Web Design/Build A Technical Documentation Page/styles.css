@@ -82,7 +82,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 28vw;
+    width: 20vw;
     height: 100vh;
   }
 
@@ -156,7 +156,6 @@ html {
   top: 0px;
   left: 0px;
   border-right: 1.25px solid black;
-  width: 20vw;
   height: 100%;
   overflow-x: hidden;
 }
