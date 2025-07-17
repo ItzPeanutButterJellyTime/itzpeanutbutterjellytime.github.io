@@ -72,6 +72,27 @@
     font-size: calc(1.18rem + 1.25px);
     font-weight: 500;
   }
+
+  #main-doc {
+    margin-left: 29vw;
+    margin-right: 1vw;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 28vw;
+    height: 100vh;
+  }
+
+  #navbar header {
+    text-align: center;
+    font-size: calc(1.20rem + 5px);
+    font-weight: 500;
+    margin: 0.2rem 0.4rem;
+    margin-bottom: -1rem;
+  }
 }
 
 /* Mobile View */
