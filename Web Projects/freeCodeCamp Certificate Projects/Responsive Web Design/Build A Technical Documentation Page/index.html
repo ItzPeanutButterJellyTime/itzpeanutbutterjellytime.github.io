@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Build a Technical Documentation Page</title>
+    <meta name="description" content="A basic technical documentation page on the JavaScript progamming language.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <nav id="navbar">
+    <header>Guide to JavaScript: </header>
+    <ul>
+      <li>
+        <a class="nav-link" href="#introduction:">Introduction: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#what_you_should_already_know:">What You Should Already Know: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#variables:">Variables: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#data_types:">Data Types: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#operators:">Operators: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#control_flow:">Control Flow: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#functions:">Functions: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#objects:">Objects: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#arrays:">Arrays: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#events:">Events: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#dom_manipulation:">DOM Manipulation: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#asynchronous_javascript:">Asynchronous JavaScript: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#error_handling:">Error Handling: </a>
+      </li>
+      <li>
+        <a class="nav-link" href="#conclusion:">Conclusion: </a>
+      </li>
+    </ul>
+  </nav>
+  <body>
+    <main id="main-doc">
+      <section id="introduction:" class="main-section">
+        <header>Introduction: </header>
+          <article>
+            <p>JavaScript is a high-level, versatile programming language primarily used to make web pages interactive. It allows websites to respond to user actions, update content dynamically, and create engaging user experiences. Beyond web browsers, JavaScript is also used in server-side development (with Node.js), mobile app development, and even game development. Today, we will be going over the fundemental parts of JavaScript.</p>
+          </article>
+      </section>
+      <section id="what_you_should_already_know:" class="main-section">
+        <header>What You Should Already Know: </header>
+        <article>
+          <p>Before we dive into the world of JavaScript, there are a few things you should know.</p>
+            <h2>You should: </h2>
+              <ol>
+                <li>Have good, working knowledge on the HTML language</li>
+                <li>Some coding/programming experience</li>
+                <li>Be familiar with the World Wide Web and the Internet</li>
+              </ol>
+        </article>
+      </section>
+      <section id="variables:" class="main-section">
+        <header>Variables: </header>
+            <p>In JavaScript, variables are fundamental building blocks used to store and manage data within your programs. Think of them as labeled containers that hold values like numbers, text, or even more complex data structures. You declare variables using keywords such as <span class="code-glyph">var</span>, <span class="code-glyph">let</span>, and <span class="code-glyph">const</span>. The <span class="code-glyph">var</span> keyword has function-scoped or global scope, while <span class="code-glyph">let</span> and <span class="code-glyph">const</span> have block scope, offering more control over variable visibility and preventing accidental modifications. Variables declared with <span class="code-glyph">const</span> are constant and their values cannot be reassigned after initialization, making them ideal for values that should not change. Assigning a value to a variable is done using the assignment operator (=), and you can then use the variable's name to access and manipulate its stored data throughout your code.</p>
+            <h2>Here is an example of variables being used: </h2>
+            <code>
+              // Declaring variables using different keywords
+
+              // Using 'let' for a variable that can change
+              let age = 30;
+              console.log("Age:", age); // Output: Age: 30
+
+              // Reassigning the value of 'age'
+              age = 31;
+              console.log("Updated age:", age); // Output: Updated age: 31
+
+              // Using 'const' for a constant variable (cannot be reassigned)
+              const name = "Alice";
+              console.log("Name:", name); // Output: Name: Alice
+
+              // Trying to reassign a 'const' variable will result in an error:
+              // name = "Bob";  // This would cause an error!
+
+              // Declaring and initializing variables of different data types
+              let isStudent = true; // Boolean
+              let height = 1.75; // Number (decimal)
+              let greeting = "Hello, world!"; // String
+
+              // Using variables in a simple calculation
+              let price = 10;
+              let quantity = 5;
+              let total = price * quantity;
+              console.log("Total:", total); // Output: Total: 50
+
+              // Concatenating strings using variables
+              let firstName = "John";
+              let lastName = "Doe";
+              let fullName = firstName + " " + lastName;
+              console.log("Full Name:", fullName); // Output: Full Name: John Doe
+            </code>
+              <h3>Explaination: </h3>
+                <ol>
+                  <li><span class="code-glyph">let age = 30;:</span> Declares a variable named age using let and assigns it the number value 30.</li>
+                  <li><span class="code-glyph">age = 31;:</span> Reassigns the value of age to 31. This is allowed because age was declared with let.</li>
+                  <li><span class="code-glyph">const name = "Alice";:</span> Declares a constant variable named name and assigns it the string value "Alice".</li>
+                  <li><span class="code-glyph">name = "Bob";:</span> This line is commented out because it would cause an error. You cannot reassign a variable declared with const.</li>
+                  <li><span class="bold">Other data types:</span> The example shows variables of type boolean, number, and string.</li>
+                  <li><span class="bold">Calculations and String Concatenation:</span> The code demonstrates how to use variables in simple arithmetic operations and how to combine strings using the + operator.</li>
+                  <li><span class="code-glyph">console.log():</span> This function is used to display the values of variables in the browser's console (usually accessed by pressing F12).</li>
+
+                </ol>
+          </article>
+      </section>
+      <section id="data_types:" class="main-section">
+        <header>Data Types: </header>
+          <p>JavaScript employs various data types to represent different kinds of values. These types are broadly categorized into primitive and object types. Primitive types each serve distinct purposes in storing simple data. Object types on the other hand, allow for the creation of more complex data structures.</p>
+          <h2>Primitive Data Types: </h2>
+            <ul>
+              <li><span class="code-glyph">string:</span> Textual data (e.g., "Hello").</li>
+              <li><span class="code-glyph">number:</span> Numerical data (e.g., 10, 3.14).</li>
+              <li><span class="code-glyph">boolean:</span> Logical values (true or false).</li>
+              <li><span class="code-glyph">null:</span> Represents the intentional absence of a value.</li>
+              <li><span class="code-glyph">undefined:</span> Represents a variable that has been declared but not assigned a value.</li>
+              <li><span class="code-glyph">symbol:</span> A unique and immutable primitive value, often used as object property keys.</li>
+              <li><span class="code-glyph">bigint:</span> Represents integers with arbitrary precision.</li>
+            </ul>
+          <h2>Object Data Types: </h2>
+            <ul>
+              <li><span class="code-glyph">object:</span> A collection of key-value pairs (e.g., { name: "John", age: 30 }).</li>
+              <li><span class="code-glyph">array:</span> An ordered list of values (e.g., [1, 2, 3]).</li>
+              <li><span class="code-glyph">function:</span> A block of code that can be executed.</li>
+            </ul>
+          <p>Understanding these data types is crucial, as it dictates how you can manipulate and interact with data within your JavaScript code. Choosing the appropriate data type ensures your code functions efficiently and accurately.</p>
+          <h2>Here is an example of data types being used in JavaScript code: </h2>
+        <code>
+          // String
+          let message = "Hello, world!";
+
+          // Number
+          let count = 10;
+
+          // Boolean
+          let isActive = true;
+
+          // Array
+          let fruits = ["apple", "banana", "cherry"];
+
+          // Object
+          let person = {
+            name: "Alice",
+            age: 30
+          };
+
+          console.log(message, count, isActive, fruits, person);
+        </code>
+              <p>This example showcases the fundamental data types in JavaScript: a string, a number, a boolean, an array, and an object. Each variable is assigned a value of its respective type, demonstrating how these types are used to store and represent different kinds of data. The <span class="code-glyph">console.log()</span> statement then displays all the variables, allowing you to see their values.</p>
+      </section>
+      <section id="operators:" class="main-section">
+        <header>Operators: </header>
+          <p>JavaScript operators are symbols that perform operations on values or variables. These operators are essential for manipulating data and controlling program flow.</p>
+            <ul> 
+              <li>Arithmetic operators <span class="code-glyph">(+, -, *, /)</span>: perform mathematical calculations</li>
+              <li>Comparison operators <span class="code-glyph">(==, ===, >, <)</span>: compare values and return boolean results</li>
+              <li>Logical operators <span class="code-glyph">(&&, ||, !)</span>: combine or negate boolean expressions</li>
+              <li>Assignment operators <span class="code-glyph">(e.g., =, +=, -=)</span>: assign values to variables or modify them</li>
+            </ul>
+            <h2>Here is an example of operators being used in JavaScript: </h2>
+              <code>
+                // Arithmetic Operators
+                let sum = 10 + 5; // Addition: sum is 15
+                let difference = 10 - 5; // Subtraction: difference is 5
+                let product = 10 * 5; // Multiplication: product is 50
+                let quotient = 10 / 5; // Division: quotient is 2
+                let remainder = 10 % 3; // Modulus (remainder): remainder is 1
+
+                // Comparison Operators
+                let isEqual = (5 == "5"); // Equality (loose): isEqual is true
+                let isStrictlyEqual = (5 === "5"); // Strict equality: isStrictlyEqual is false
+                let isGreaterThan = (10 > 5); // Greater than: isGreaterThan is true
+
+                // Logical Operators
+                let andResult = (true && false); // AND: andResult is false
+                let orResult = (true || false); // OR: orResult is true
+                let notResult = !true; // NOT: notResult is false
+
+                console.log(sum, difference, product, quotient, remainder, isEqual, isStrictlyEqual, isGreaterThan, andResult, orResult, notResult);
+                </code>
+                  <p>This example demonstrates various JavaScript operators. Arithmetic operators perform basic calculations, comparison operators check relationships between values, and logical operators combine boolean expressions. The <span class="code-glyph">console.log()</span> statement displays the results of these operations, showcasing how operators manipulate data and produce different outcomes.</p>
+      </section>
+      <section id="control_flow:" class="main-section">
+        <header>Control Flow: </header>
+          <p>Control flow in JavaScript dictates the order in which statements are executed within a program. Conditional statements, such as <span class="code-glyph">if</span>, <span class="code-glyph">else if</span>, and <span class="code-glyph">else</span>, allow the program to make decisions based on specific conditions. Loops, including <span class="code-glyph">for</span>, <span class="code-glyph">while</span>, and <span class="code-glyph">do...while</span>, enable repetitive execution of code blocks. These control flow structures are essential for creating dynamic and responsive applications. They allow developers to handle different scenarios and automate tasks efficiently. By mastering control flow, you can build more complex and interactive JavaScript programs.</p>
+          <code>
+            // if/else statement
+            let age = 20;
+
+            if (age >= 18) {
+              console.log("You are an adult.");
+            } else {
+              console.log("You are a minor.");
+            }
+
+            // for loop
+            for (let i = 0; i < 3; i++) {
+              console.log("Iteration: " + i);
+            }
+
+            // while loop
+            let count = 0;
+            while (count < 2) {
+              console.log("Count: " + count);
+              count++;
+            }
+          </code>
+            <p>This example demonstrates control flow using <span class="code-glyph">if/else</span> statements and loops. The if/else statement checks the value of the age variable and prints a message accordingly. The for loop iterates 3 times, printing the iteration number. The while loop iterates as long as the count variable is less than 2, printing the current count and incrementing it in each iteration. These examples illustrate how control flow structures direct the execution of code based on conditions or repetitions.</p>
+      </section>
+      <section id="functions:" class="main-section">
+        <header>Functions: </header>
+          <p>Functions in JavaScript are reusable blocks of code that perform specific tasks. They enhance code organization and readability by breaking down complex tasks into smaller, manageable units. Functions accept input values (arguments) and can return output values. They promote code reusability, avoiding redundant code by calling the same function multiple times with different arguments. This modular approach improves code maintainability and makes debugging easier.</p>
+          <h2>Here is an example of functions being used: </h2>
+            <code>
+              // Function declaration
+              function greet(name) {
+                return "Hello, " + name + "!";
+              }
+
+              // Function expression (assigned to a variable)
+              const add = function(a, b) {
+                return a + b;
+              };
+
+              // Arrow function (concise syntax)
+              const multiply = (x, y) => x * y;
+
+              // Calling the functions
+              let greeting = greet("Alice"); // greeting will be "Hello, Alice!"
+              let sum = add(5, 3); // sum will be 8
+              let product = multiply(4, 6); // product will be 24
+
+              console.log(greeting, sum, product);
+            </code>
+            <p>This example demonstrates three ways to define functions in JavaScript: function declaration, function expression, and arrow function. The <span class="code-glyph">greet</span> function takes a name as input and returns a greeting. The <span class="code-glyph">add</span> function takes two numbers and returns their sum. The <span class="code-glyph">multiply</span> function, defined with arrow syntax, also takes two numbers and returns their product. The <span class="code-glyph">console.log()</span> statement then displays the results of calling these functions, showcasing how functions are used to perform specific tasks and return values.</p>
+      </section>
+      <section id="objects:" class="main-section">
+        <header>Objects: </header>
+          <p>Objects in JavaScript are fundamental data structures that allow you to model real-world entities or complex data structures in your code and also store collections of key-value pairs. Each key, a string or symbol, is associated with a value, which can be any JavaScript data type, including other objects. You can access object properties using dot notation (e.g., <span class="code-glyph">object.property</span>) or bracket notation (e.g., <span class="code-glyph">object["property"]</span>). Objects are essential for organizing and manipulating data, enabling you to create more structured and maintainable JavaScript applications.</p>
+          <h2>Here is an example of this in JavaScript: </h2>
+            <code>
+              // Create an object representing a person
+              const person = {
+                firstName: "John",
+                lastName: "Doe",
+                age: 30,
+                occupation: "Developer",
+                // Method (function inside an object)
+                greet: function() {
+                  console.log("Hello, my name is " + this.firstName + " " + this.lastName);
+                }
+              };
+
+              // Access object properties
+              console.log(person.firstName); // Output: John
+              console.log(person.age);       // Output: 30
+
+              // Call the object's method
+              person.greet(); // Output: Hello, my name is John Doe
+
+              // Modify an object property
+              person.age = 31;
+              console.log(person.age); // Output: 31
+            </code>
+            <p>This example demonstrates the use of objects in JavaScript. It creates a person object with properties like <span class="code-glyph">firstName</span>, <span class="code-glyph">lastName</span>, <span class="code-glyph">age</span>, and <span class="code-glyph">occupation</span>. It also includes a method called <span class="code-glyph">greet</span> that logs a greeting to the console. The code then shows how to access object properties using dot notation, call the object's method, and modify an object property. Objects are fundamental in JavaScript for organizing and representing data.</p>
+      </section>
+      <section id="arrays:" class="main-section">
+        <header>Arrays: </header>
+          <p>Arrays in JavaScript are ordered collections of data, capable of holding various data types within a single structure. They are indexed numerically, starting from zero, allowing for easy access to individual elements. Arrays provide methods for adding, removing, and manipulating elements, making them versatile for managing lists of data. You can iterate through arrays using loops or built-in methods like <span class="code-glyph">forEach</span> and <span class="code-glyph">map</span>. Understanding arrays is crucial for storing and processing collections of information efficiently in JavaScript.
+</p>
+        <h2>Here is an example of array being used: </h2>
+        <code>
+          // Creating an array
+          let fruits = ["apple", "banana", "orange"];
+
+          // Accessing elements
+          console.log(fruits[0]); // Output: apple
+          console.log(fruits[1]); // Output: banana
+
+          // Adding an element
+          fruits.push("grape"); // fruits is now ["apple", "banana", "orange", "grape"]
+
+          // Removing an element
+          fruits.pop(); // fruits is now ["apple", "banana", "orange"]
+
+          // Iterating through the array
+          for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+}
+        </code>
+        <p>This example showcases the fundamental usage of arrays in JavaScript. It begins by creating an array named <span class="code-glyph">fruits</span> containing string elements. The code then demonstrates accessing elements by their index, adding an element using <span class="code-glyph">push()</span>, and removing an element using <span class="code-glyph">pop()</span>. Finally, a <span class="code-glyph">for</span> loop is used to iterate through the array and print each fruit. This demonstrates how arrays store and allow manipulation of ordered collections of data.</p>
+      </section>
+      <section id="events:" class="main-section">
+        <header>Events: </header>
+          <p>Events in JavaScript are actions or occurrences that happen in the browser, such as a user clicking a button or a webpage loading. Event listeners are functions that "listen" for these events and execute specific code when the event occurs. You can attach event listeners to HTML elements using methods like <span class="code-glyph">addEventListener()</span>. Event handling allows you to create interactive and dynamic web pages that respond to user actions. Understanding events is essential for building responsive and engaging user interfaces in JavaScript.</p>
+          <h2>Here is a simple example of this in JavaScript: </h2>
+            <code>
+              // Get a reference to the button element (assuming it has an id of "myButton")
+              const button = document.getElementById("myButton");
+
+              // Define a function to handle the click event
+              function handleClick() {
+                alert("Button clicked!");
+              }
+
+              // Add an event listener to the button
+              button.addEventListener("click", handleClick);
+
+              // Another example:
+              // Get a reference to a div element (assuming it has an id of "myDiv")
+              const myDiv = document.getElementById("myDiv");
+
+              // Add an event listener for the "mouseover" event
+              myDiv.addEventListener("mouseover", function() {
+                myDiv.style.backgroundColor = "lightblue";
+              });
+
+              // Add an event listener for the "mouseout" event
+              myDiv.addEventListener("mouseout", function() {
+                myDiv.style.backgroundColor = "white";
+              });
+            </code>
+              <p>This example demonstrates how to handle events in JavaScript. The first part selects an HTML button element (assuming it exists with the id "myButton") and adds a "click" event listener. When the button is clicked, the <span class="code-glyph">handleClick</span> function, which displays an alert, is executed. The second part of the example shows how to change the background color of a div when the mouse hovers over it and changes it back when the mouse moves out. This illustrates how events trigger specific actions, making web pages interactive</p>
+      </section>
+      <section id="dom_manipulation:" class="main-section">
+        <header>DOM Manipulation: </header>
+        <p>DOM manipulation in JavaScript allows you to dynamically modify the structure, content, and style of HTML documents.  It involves using JavaScript to interact with and change the elements of a web page's Document Object Model (DOM).  This enables creating interactive and dynamic web applications that respond to user actions and data changes.  Common DOM manipulation techniques include adding, removing, or modifying HTML elements, changing element attributes, and updating CSS styles. Mastering DOM manipulation is a fundamental skill for any JavaScript developer building modern web applications.</p>
+        <h2>Here is an example in JavaScript: </h2>
+          <code>
+            // Get a reference to an HTML element (assuming it has an id of "myElement")
+            const element = document.getElementById("myElement");
+
+            // Change the text content of the element
+            element.textContent = "Hello, world!";
+
+            // Change the style of the element
+            element.style.color = "red";
+            element.style.fontSize = "20px";
+
+            // Create a new element (e.g., a paragraph)
+            const newElement = document.createElement("p");
+            newElement.textContent = "This is a new paragraph.";
+
+            // Append the new element to the document body
+            document.body.appendChild(newElement);
+
+            // Remove the original element from the document (optional)
+            // element.remove();
+          </code>
+          <p>This example demonstrates basic DOM manipulation. It first retrieves an HTML element with the ID "myElement". Then, it changes the element's text content and style. After that, it creates a new paragraph element, sets its text, and appends it to the document body. The final line (commented out) shows how to remove an element. This illustrates how JavaScript can dynamically modify the structure and content of a webpage.</p>
+      </section>
+      <section id="asynchronous_javascript:" class="main-section">
+        <header>Asynchronous JavaScript: </header>
+          <p>Asynchronous JavaScript allows code to execute without blocking the main thread, enabling non-blocking operations. This is crucial for tasks like fetching data from servers or handling user input, which can take time. Instead of waiting for a task to complete, asynchronous code continues to execute other parts of the program. Callbacks, Promises, and async/await are common patterns for managing asynchronous operations in JavaScript. This approach enhances responsiveness and prevents the user interface from freezing during lengthy processes, leading to a better user experience. Understanding asynchronous JavaScript is essential for building modern, efficient web applications.</p>
+        <h2>Here is an example of this in JavaScript: </h2>
+          <code>
+            // Simulate fetching data from a server (asynchronous operation)
+            function fetchData(callback) {
+              setTimeout(() => {
+                const data = "This is the fetched data.";
+                callback(data); // Call the callback function with the data
+              }, 2000); // Simulate a 2-second delay
+            }
+
+            // Define a callback function to handle the fetched data
+            function processData(data) {
+              console.log("Data received:", data);
+              // You can now use the 'data' here
+            }
+
+            // Call fetchData with the processData callback
+            console.log("Fetching data...");
+            fetchData(processData);
+            console.log("This line executes immediately, not waiting for the data.");
+          </code>
+          <p>This example demonstrates asynchronous JavaScript using <span class="code-glyph">setTimeout</span> to simulate a network request. The <span class="code-glyph">fetchData</span> function takes a <span class="code-glyph">callback</span> function as an argument. It uses <span class="code-glyph">setTimeout</span> to delay the execution of the callback function, simulating the time it takes to fetch data. The <span class="code-glyph">processData</span> function is the callback, which is executed <span class="emphasize">after</span> the data is "fetched." The <span class="code-glyph">console.log</span> statements show that the code after <span class="code-glyph">fetchData</span> executes immediately, demonstrating the non-blocking nature of asynchronous operations.</p>
+      </section>
+      <section id="error_handling:" class="main-section">
+        <header>Error Handling: </header>
+          <p>Error handling in JavaScript is crucial for building robust and reliable applications.  The <span class="code-glyph">try...catch</span> block allows you to gracefully handle potential errors during code execution.  Within the <span class="code-glyph">try</span> block, you place the code that might throw an error, and the <span class="code-glyph">catch</span> block handles the error if one occurs.  You can also use the <span class="code-glyph">finally</span> block to execute code regardless of whether an error was thrown or caught, often used for cleanup operations.  Effective error handling prevents unexpected program crashes and provides a better user experience by allowing the application to recover or display informative error messages.</p>
+        <h2>Here is an example of this in JavaScript: </h2>
+          <code>
+            try {
+              // Code that might throw an error
+              const result = 10 / 0; // This will throw an error (division by zero)
+              console.log("Result:", result); // This line will not execute
+            } catch (error) {
+              // Code to handle the error
+              console.error("An error occurred:", error.message);
+              // You can also take other actions, like logging the error to a server
+            } finally {
+              // Code that always executes, regardless of whether an error occurred
+              console.log("This will always execute.");
+            }
+
+            console.log("Program continues after the try...catch block.");
+          </code>
+          <p>This example demonstrates basic error handling using a <span class="code-glyph">try...catch...finally</span> block. The <span class="code-glyph">try</span> block contains code that might throw an error (in this case, division by zero). If an error occurs, the <span class="code-glyph">catch</span> block is executed, logging the error message to the console. The <span class="code-glyph">finally</span> block executes regardless of whether an error occurred, ensuring that certain cleanup operations are always performed. The program then continues execution after the <span class="code-glyph">try...catch</span> block.</p>
+      </section>
+      <section id="conclusion:" class="main-section">
+        <header>Conclusion: </header>
+          <p>These are all the core fundementals of the JavaScript language. Thank you for taking the time to read this in depth guide to JavaScript. We appreciate your contribution and hope this will prepare you.</p>
+      </section>
+    </main>
+  </body>
+</html>
