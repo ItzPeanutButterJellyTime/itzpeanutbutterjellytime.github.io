@@ -1,8 +1,14 @@
 @media(min-width: 320px) and (max-width: 768px) {
   html {
+    display: flex;
     font-size: 1.18rem;
-    width: 100%;
-    height: auto;
+    max-width: 75%;
+    max-height: auto;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 16vw;
   }
 }
 
