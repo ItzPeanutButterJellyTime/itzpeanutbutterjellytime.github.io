@@ -1,7 +1,7 @@
 /* Desktop View */
 @media(min-width: 1920px) and (max-width: 3840px) {
   html {
-    font-size: 1.20rem;
+    font-size: 1.22rem;
     width: 100vw;
     height: 100vh;
   }
@@ -9,16 +9,21 @@
   #main-doc header {
     margin: 0;
     text-align: center;
-    font-size: calc(1.20rem + 5px);
+    font-size: calc(1.22rem + 5px);
     font-weight: 600;
   }
 
     h2 {
     text-align: center;
-    font-size: calc(1.20rem + 2.5px);
+    font-size: calc(1.22rem + 2.5px);
     font-weight: 500;
   }
-  
+  h3 {
+    text-align: center;
+    font-size: calc(1.22rem + 1.25px);
+    font-weight: 500;
+  }
+
   #main-doc {
     margin-left: 25vw;
     margin-right: 1vw;
@@ -34,28 +39,75 @@
 
   #navbar header {
     text-align: center;
-    font-size: calc(1.20rem + 5px);
+    font-size: calc(1.22rem + 5px);
     font-weight: 500;
     margin: 0.2rem 0.4rem;
     margin-bottom: -1rem;
-  }
-
-  h3 {
-    text-align: center;
-    font-size: calc(1.20rem + 1.25px);
-    font-weight: 500;
   }
 }
 
 /* Laptop View */
 @media (min-width: 1280px) and (max-width: 1920px){
   html {
-    font-size: 1.18rem;
+    font-size: 1.20rem;
     width: 100vw;
     height: 100vh;
   }
 
     #main-doc header {
+    margin: 0;
+    text-align: center;
+    font-size: calc(1.20rem + 5px);
+    font-weight: 600;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: calc(1.20rem + 2.5px);
+    font-weight: 500;
+  }
+  h3 {
+    text-align: center;
+    font-size: calc(1.20rem + 1.25px);
+    font-weight: 500;
+  }
+
+  #main-doc {
+    margin-left: 23vw;
+    margin-right: 1vw;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 22vw;
+    height: 100vh;
+  }
+
+  #navbar header {
+    text-align: center;
+    font-size: calc(1.20rem + 5px);
+    font-weight: 500;
+    margin: 0.2rem 0.4rem;
+    margin-bottom: -1rem;
+  }
+}
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1280px) {
+  html {
+    font-size: 1.18rem;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #main-doc {
+    position: absolute;
+    margin-left: 21vw;
+    margin-right: 1vw;
+  }
+
+  #main-doc header {
     margin: 0;
     text-align: center;
     font-size: calc(1.18rem + 5px);
@@ -72,36 +124,21 @@
     font-size: calc(1.18rem + 1.25px);
     font-weight: 500;
   }
-
-  #main-doc {
-    margin-left: 21vw;
-    margin-right: 1vw;
-  }
-  
-  #navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 20vw;
-    height: 100vh;
-  }
-
   #navbar header {
+    max-height: 75%;
     text-align: center;
-    font-size: calc(1.20rem + 5px);
+    word-wrap: nowwrap;
+    font-size: calc(1.18rem + 5px);
     font-weight: 500;
-    margin: 0.2rem 0.4rem;
-    margin-bottom: -1rem;
+    margin: 2.5px 6.75px;
+    margin-bottom: -1.3rem;
   }
-}
-/* Tablet View */
-@media (min-width: 768px) and (max-width: 1280px) {
 }
 
 /* Mobile View */
 @media(min-width: 320px) and (max-width: 440px) {
   html {
-    font-size: 0.85rem;
+    font-size: 1rem;
     width: 100vw;
     height: auto;
   }
@@ -134,15 +171,6 @@
 
 html {
   font-family: 'Roboto', Arial;
-  font-size: 1.18rem;
-  width: 100vw;
-  height: 100vh;
-}
-
-#main-doc {
-  position: absolute;
-  margin-left: 21vw;
-  margin-right: 1vw;
 }
 
 #navbar header {
@@ -183,7 +211,7 @@ html {
 #navbar a {
   display: block;
   text-align: center;
-  padding: 15px 25px;
+  padding: 0.94rem 1.56rem;
   overflow: auto;
   color: black;
   text-decoration: none;
@@ -196,24 +224,6 @@ html {
 section {
   display: block;
   border-bottom: 1.5px solid black;
-}
-
-#main-doc header {
-  margin: 0;
-  text-align: center;
-  font-size: calc(1.18rem + 5px);
-  font-weight: 600;
-}
-
-h2 {
-  text-align: center;
-  font-size: calc(1.18rem + 2.5px);
-  font-weight: 500;
-}
-h3 {
-  text-align: center;
-  font-size: calc(1.18rem + 1.25px);
-  font-weight: 500;
 }
 
 p {
@@ -232,14 +242,12 @@ code {
   width: fit-content;
   height: auto;
   margin: auto;
-  padding: 1.52em;
+  padding: 1.25em;
   background-color: rgba(0, 0, 0, 25%);
-  border: 5px solid black;
   border-radius: 10px;
   white-space: pre-line;
-  
 }
-.code-glyph {
+.code-font {
   font-family: 'Roboto Mono';
 }
 
