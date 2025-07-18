@@ -1,7 +1,7 @@
 /* Desktop View */
 @media(min-width: 1920px) and (max-width: 3840px) {
   html {
-    font-size: 1.22rem;
+    font-size: 1.24rem;
     width: 100vw;
     height: 100vh;
   }
@@ -9,18 +9,18 @@
   #main-doc header {
     margin: 0;
     text-align: center;
-    font-size: calc(1.22rem + 5px);
+    font-size: calc(1.24rem + 5px);
     font-weight: 600;
   }
 
     h2 {
     text-align: center;
-    font-size: calc(1.22rem + 2.5px);
+    font-size: calc(1.24rem + 2.5px);
     font-weight: 500;
   }
   h3 {
     text-align: center;
-    font-size: calc(1.22rem + 1.25px);
+    font-size: calc(1.24rem + 1.25px);
     font-weight: 500;
   }
 
@@ -39,7 +39,7 @@
 
   #navbar header {
     text-align: center;
-    font-size: calc(1.22rem + 5px);
+    font-size: calc(1.24rem + 5px);
     font-weight: 500;
     margin: 0.2rem 0.4rem;
     margin-bottom: -1rem;
@@ -47,9 +47,9 @@
 }
 
 /* Laptop View */
-@media (min-width: 1280px) and (max-width: 1920px){
+@media (min-width: 1024px) and (max-width: 1920px){
   html {
-    font-size: 1.20rem;
+    font-size: 1.22rem;
     width: 100vw;
     height: 100vh;
   }
@@ -57,23 +57,23 @@
     #main-doc header {
     margin: 0;
     text-align: center;
-    font-size: calc(1.20rem + 5px);
+    font-size: calc(1.22rem + 5px);
     font-weight: 600;
   }
 
   h2 {
     text-align: center;
-    font-size: calc(1.20rem + 2.5px);
+    font-size: calc(1.22rem + 2.5px);
     font-weight: 500;
   }
   h3 {
     text-align: center;
-    font-size: calc(1.20rem + 1.25px);
+    font-size: calc(1.22rem + 1.25px);
     font-weight: 500;
   }
 
   #main-doc {
-    margin-left: 23vw;
+    margin-left: 24vw;
     margin-right: 1vw;
   }
   
@@ -87,14 +87,14 @@
 
   #navbar header {
     text-align: center;
-    font-size: calc(1.20rem + 5px);
+    font-size: calc(1.22rem + 5px);
     font-weight: 500;
     margin: 0.2rem 0.4rem;
     margin-bottom: -1rem;
   }
 }
 /* Tablet View */
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   html {
     font-size: 1.18rem;
     width: 100vw;
@@ -103,7 +103,7 @@
 
   #main-doc {
     position: absolute;
-    margin-left: 21vw;
+    margin-left: 26.75vw;
     margin-right: 1vw;
   }
 
