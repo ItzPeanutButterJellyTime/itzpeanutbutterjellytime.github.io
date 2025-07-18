@@ -1,7 +1,7 @@
 /* Desktop View */
 @media(min-width: 1920px) and (max-width: 3840px) {
   html {
-    font-size: 1.26rem;
+    font-size: 1.32rem;
     width: 100vw;
     height: 100vh;
   }
@@ -9,18 +9,18 @@
   #main-doc header {
     margin: 0;
     text-align: center;
-    font-size: calc(1.26rem + 5px);
+    font-size: calc(1.32rem + 5px);
     font-weight: 600;
   }
 
     h2 {
     text-align: center;
-    font-size: calc(1.26rem + 2.5px);
+    font-size: calc(1.32rem + 2.5px);
     font-weight: 500;
   }
   h3 {
     text-align: center;
-    font-size: calc(1.26rem + 1.25px);
+    font-size: calc(1.32rem + 1.25px);
     font-weight: 500;
   }
 
@@ -33,16 +33,20 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: fit-content;
+    width: 18vw;
     height: 100vh;
   }
 
   #navbar header {
     text-align: center;
-    font-size: calc(1.26rem + 5px);
+    font-size: calc(1.32rem + 5px);
     font-weight: 500;
     margin: 0.2rem 0.4rem;
     margin-bottom: -1rem;
+  }
+
+  #navbar ul {
+    width: 18vw;
   }
 }
 
