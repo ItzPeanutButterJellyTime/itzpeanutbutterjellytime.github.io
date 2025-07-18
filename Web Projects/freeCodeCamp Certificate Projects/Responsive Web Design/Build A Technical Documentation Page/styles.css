@@ -74,7 +74,7 @@
   }
 
   #main-doc {
-    margin-left: 29vw;
+    margin-left: 21vw;
     margin-right: 1vw;
   }
   
@@ -111,7 +111,7 @@
     flex-direction: column;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    margin-right: 1vw;
+    margin: 1vw;
   }
 
   #navbar header {
